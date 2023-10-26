@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+        }
+
+
+
+        .img1 {
+            background: #85b5c9;
+        }
+
+        body {
+            background-image: url(images/slider1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        .about {
+            float: left;
+            width: 50%;
+        }
+
+
+
+
+        .form-control {
+            width: 90%;
+            padding: 10px;
+            margin: 14px;
+
+
+        }
+
+        .btn {
+            color: rgb(0, 0, 5);
+            padding: 10px 20px;
+            margin: 15px;
+            text-align: center;
+            background-color: aqua;
+        }
+
+        .btn:hover {
+            background-color: blanchedalmond;
+        }
+
+        .footer {
+            background-color: black;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+
+        }
+
+        .nav {
+            background-color: #85b5c9;
+            width: 100%;
+            display: block;
+            /* min-height: 100px; */
+        }
+
+        .nav .logo {
+            background-color: #85b5c9;
+            width: 10%;
+            /* display: inline-block; */
+            float: left;
+        }
+
+        .nav .logo img {
+            width: 100%;
+            margin: 10px 0 7px 5px;
+            
+        }
+
+        .nav .menu {
+            background-color:#85b5c9;
+            width: 90%;
+            /* display: inline-block; */
+            float: left;
+        }
+
+        .nav .menu ul {
+            margin-top: 18px;
+        }
+
+        .nav .menu ul li {
+            display: inline-block;
+        }
+
+        .nav .menu ul li a {
+            display: block;
+            background-color: #222;
+            color: #fff;
+            padding: .5rem 1rem;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+        .menu ul li a {
+            background-color: aqua;
+        }
+
+        .slider {
+            height: 650px;
+        }
+
+        .section {
+            display: block;
+            width: 100%;
+            background-color: #fff;
+        }
+
+        .section .about-us {
+            min-height: 300px;
+            float: left;
+            /* display: block; */
+            width: 70% !important;
+            background-color:#85b5c9;
+            margin-bottom: 30px;
+        }
+
+        .section .about-us-in {
+            padding: 0rem 3rem;
+        }
+
+        .section .about-us-in h4 {
+            text-align: center;
+        }
+
+        .section .about-us-in p {
+            text-align: justify;
+        }
+
+        .section .form {
+            min-height: 300px;
+            float: left;
+            /* display: block; */
+            width: 30%;
+            background-color: #85b5c9;
+            margin-bottom: 30px;
+        }
+
+        .section .form .form-in {
+            padding: 2rem;
+            background-color: #ccc;
+            margin-top: 1.5rem;
+            border-radius: 10px 0 0 10px;
+        }
+
+        .section .form .form-in input {
+            padding: .5rem 1rem;
+            width: 90%;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+
+        }
+
+        .section .form .form-in h4 {
+            text-align: center;
+        }
+
+        .section .form .form-in .btnbx {
+            display: block;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+        .section .form .form-in button {
+            padding: .5rem 1rem;
+            width: 30%;
+            border-radius: 10px;
+            border: 1px solid #85b5c9;
+            float: right;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="images/pngegg.png" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">REGISTER</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="slider"></div>
+    <div class="section">
+        <div class="about-us">
+            <div class="about-us-in">
+                <h4>ABOUT US</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque pariatur ab culpa labore
+                    aspernatur,
+                    neque earum quos, dicta alias possimus officiis harum fugiat, vel delectus enim. Mollitia aperiam
+                    est
+                    sit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore, veritatis quidem. Ex voluptatem maxime doloribus ratione libero, fugiat tempora porro ipsam
+                    hic,
+                    voluptatibus iusto perferendis, quibusdam incidunt quia reiciendis consequatur.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque pariatur ab culpa labore
+                    aspernatur,
+                    neque earum quos, dicta alias possimus officiis harum fugiat, vel delectus enim. Mollitia aperiam
+                    est
+                    sit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore, veritatis quidem. Ex voluptatem maxime doloribus ratione libero, fugiat tempora porro ipsam
+                    hic,
+                    voluptatibus iusto perferendis, quibusdam incidunt quia reiciendis consequatur.</p>
+            </div>
+        </div>
+        <div class="form">
+            <div class="form-in">
+                <h4>LOGIN</h4>
+                <input type="email" placeholder="enter username">
+                <input type="password" placeholder="enter password">
+                <div class="btnbx">
+                    <button>LOGIN</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="images">
+        <img src="images/imgg11.jfif" alt="" width="19.7%" style="padding: 0%;margin: 0%;">
+        <img src="images/imgg22.jfif" alt="" width="19.7%" style="padding: 0%;margin: 0%;">
+        <img src="images/imgg33.jfif" alt="" width="19.7%" style="padding: 0%;margin: 0%;">
+        <img src="images/imgg44.jfif" alt="" width="19.7%" style="padding: 0%;margin: 0%;">
+        <img src="images/imgg55.jpg" alt="" width="19.7%" style="padding: 0%;margin: 0%;">
+
+    </div> -->
+    <div class="image">
+        <img src="images/imgg11.jfif" alt="" width="19.7%">
+        <img src="images/imgg22.jfif" alt="" width="19.7%">
+        <img src="images/imgg33.jfif" alt="" width="19.7%">
+        <img src="images/imgg44.jfif" alt="" width="19.7%">
+        <img src="images/imgg55.jpg" alt="" width="19.7%">
+    </div>
+    <div class="footer">
+        <p>copyright</p>
+    </div>
+
+
+</body>
+
+</html>
